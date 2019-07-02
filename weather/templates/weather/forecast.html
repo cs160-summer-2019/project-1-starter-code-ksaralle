@@ -7,10 +7,72 @@
 	
 	<link rel="stylesheet" type="text/css" href="{% static 'weather/vendors/bootstrap/css/bootstrap.css' %}" />
 	<link rel="stylesheet" type="text/css" href="{% static 'weather/css/style.css' %}" />
+  <link href='https://fonts.googleapis.com/css?family=Amatic SC' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=East Sea Dokdo' rel='stylesheet'>
+
 
 </head>
-<body>
-	<!-- your single-location forecast interface here -->
+<body class="text-center" style="padding: 20PX;">
+	<div class="container screen">
+    <div class="alert-icon" align="left">
+        
+    </div>
+    <div class="title">SAN FRANCISCO</div>
+    <div class="row">
+        <div class="col-sm-12">
+          <div class="small-font">7:15AM</div>
+        </div>
+    </div>
+    <br>
+    
+    <div class="row"> 
+        <div class="col-sm-12">
+          <figure class="icon">
+            <img src="img/partly-cloudly.png" alt="partly-cloudly.png" height="300px">
+          </figure>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+          <div class="large-font">15°</div>
+        </div>
+    </div>
+    
+     <div class="row">
+        <div class="col-xs-3">
+            
+                <div class="small-icon">
+                    <img src="img/cloudly.png" alt="cloudly.png" height="40px;">
+                </div>
+                <div class="middle-font">TODAY</div>
+            
+        </div>
+        <div class="col-xs-3">
+         
+                <div class="small-icon">
+                    <img src="img/partly-cloudly.png" alt="partly-cloudly.png" height="40px;">
+                </div>
+                <div class="middle-font">TUE</div>
+          
+        </div>
+        <div class="col-xs-3">
+          
+                <div class="small-icon">
+                    <img src="img/partly-cloudly.png" alt="partly-cloudly.png" height="40px;">
+                </div>
+                <div class="middle-font">WED</div>
+          
+        </div>
+        <div class="col-xs-3">
+         
+                <div class="small-icon alert-small-screen">
+                    <img src="img/thunder-cropped.png" alt="sunny.png" height="40px;">
+                </div>
+                <div class="middle-font alert-small-screen">THUR</div>
+         
+        </div>
+    </div>
+  </div>
 </body>
 </html>
 

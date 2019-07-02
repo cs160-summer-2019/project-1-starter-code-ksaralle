@@ -1,3 +1,156 @@
 li {
     color: green;
 }
+.timeline {
+    display: inline-flex;
+    
+}
+.time {
+    margin-left: 22px;
+    margin-right: 22px;
+    margin-top: 5px;
+    font-family: 'Amatic SC';
+    color: #F5DEB3;
+}
+
+
+#alerted-city {
+    color: crimson;
+}
+
+.city-name {
+    font-family: 'East Sea Dokdo';
+    font-size: 2.5rem;
+    padding: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.temperature {
+    font-family: 'East Sea Dokdo';
+    font-size: 2.5rem;
+    padding: 2px;
+}
+
+.title {
+  align-content:center;
+  text-align:center;
+  font-size:2.7rem;
+  font-family:'East Sea Dokdo';
+}
+.large-font {
+  display:block;
+  font-size:5.0rem;
+  font-family:'Amatic SC';
+  height:200px;
+}
+.small-font {
+  font-family:'East Sea Dokdo'；
+}
+.middle-font {
+  font-family: 'Amatic SC';
+  font-size: 2.0rem;
+  margin-bottom: 40px;
+  
+  
+}
+
+
+.blank {
+  height: 100px;
+}
+
+.screen {
+  background-color:#FFFAFA;
+  height: 700px;
+}
+
+.alert-screen {
+  background-color:#FFA54F;
+  height: 700px;
+}
+
+.alert-small-screen {
+  background-color:#FFA54F;
+}
+
+
+
+.icon {
+  height:300px;
+  
+}
+.small-icon {
+  height: 60px;
+   
+}
+
+.alert-icon {
+  height:10px;
+    margin-left: 50px;
+}
+
+
+
+
+.vl {
+  border-left: 6px solid #F5DEB3;
+  height: 50px;
+  display:inline-block;
+  vertical-align: top;
+  margin-left: 10px;
+  margin-right: 10px;
+  box-shadow: 2px 1px #8B6969;
+}
+
+.v2 {
+  border-left: 6px solid #F5DEB3;
+  height: 70px;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 10px;
+  margin-right: 10px;
+  box-shadow: 2px 1px #8B6969;
+}
+
+.triangle {
+    margin-top: 8px;
+}
+
+
+.shapes {
+    
+    opacity: 0.7;
+    margin-top: 20px;
+    padding-bottom: 50px;
+    text-align: left
+}
+.dots {
+    margin-bottom: 45px;
+    margin-top: 45px;
+    z-index: 1;
+    display: flex;
+    
+}
+
+#first-dot {
+   margin-left: 90px;
+    z-index: 1;
+}
+#second-dot {
+   margin-left: 180px;
+}
+#third-dot {
+   margin-left: 70px;
+}
+#fourth-dot {
+   margin-left: 110px;
+}
+#fifth-dot {
+   margin-left: 90px;
+}
+
+.svg-lines {
+    opacity: 0.7;
+    position: absolute;
+    z-index:2;
+}

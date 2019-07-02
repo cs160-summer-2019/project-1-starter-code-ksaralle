@@ -7,9 +7,105 @@
 	
 	<link rel="stylesheet" type="text/css" href="{% static 'weather/vendors/bootstrap/css/bootstrap.css' %}" />
 	<link rel="stylesheet" type="text/css" href="{% static 'weather/css/style.css' %}" />
+  <link href='https://fonts.googleapis.com/css?family=Amatic SC' rel='stylesheet'>
+   <link href='https://fonts.googleapis.com/css?family=East Sea Dokdo' rel='stylesheet'>
 
 </head>
 <body>
-	<!-- your comparison interface with alert here -->
+	<div class="screen">
+        <div class="lines">
+            <div class="vl"></div>
+            <div class="v2"></div>
+            <div class="vl"></div>
+            <div class="v2"></div>
+            <div class="vl"></div>
+            <div class="v2"></div>
+            <div class="vl"></div>
+            <div class="v2"></div>
+            <div class="vl"></div>
+            <div class="v2"></div>
+            <div class="vl"></div>
+            <div class="v2"></div>
+            <div class="vl"></div>
+            <div class="v2"></div>
+            <div class="vl"></div>
+        </div>
+    
+        <div class="timeline">
+            <div class="time">5AM</div>
+            <div class="time">6AM</div>
+            <div class="time">NOW</div>
+            <div class="time">8AM</div>
+            <div class="time">9AM</div>
+        </div>
+        
+        <div class="triangle"> 
+            <img src="img/triangle-icon.png" alt="triangle-icon.png" height="20px">   
+        </div>
+        
+        <br>
+        
+        <div class="shapes">
+            
+            <svg class="svg-lines" height="210" width="500">
+                <line x1="110" y1="25" x2="200" y2="105" style="stroke:#F38401 ;stroke-width:5" />
+                Sorry, your browser does not support inline SVG.
+            </svg>
+            
+            <svg class="svg-lines" height="210" width="500">
+                <line x1="200" y1="105" x2="90" y2="185" style="stroke:#F38401 ;stroke-width:5" />
+                Sorry, your browser does not support inline SVG.
+            </svg>
+            
+            <svg class="svg-lines" height="300" width="500">
+                <line x1="90" y1="185" x2="130" y2="275" style="stroke:#F38401 ;stroke-width:5" />
+                Sorry, your browser does not support inline SVG.
+            </svg>
+            
+            <svg class="svg-lines" height="500" width="500">
+                <line x1="130" y1="275" x2="110" y2="355" style="stroke:#F38401 ;stroke-width:5" />
+                Sorry, your browser does not support inline SVG.
+            </svg>
+            
+            <div class="dots"> 
+                <img id="first-dot" src="img/orange-dot.png" alt="orange-dot.png" height="40px;" >
+                <div class="city-name">Berkeley</div>
+                <img src="img/sunny.png" alt="sunny.png" height="40px">
+                <div class="temperature">15°</div>
+            </div>
+            <div class="dots"> 
+                <img id="second-dot" src="img/orange-dot.png" alt="orange-dot.png" height="40px;" >
+                <div class="city-name">San Jose</div>
+                <img src="img/cloudly.png" alt="cloudy.png" height="40px">
+                <div class="temperature">18°</div>
+            </div>
+            <div class="dots"> 
+                <img id="third-dot" src="img/red-dot.png" alt="orange-dot.png" height="40px;" >
+                <div id="alerted-city" class="city-name">New York</div>
+                <img src="img/cloudly.png" alt="cloudy.png" height="40px">
+                <div class="temperature">13°</div>
+                <img src="img/alert-cropped.png" alt="alert-cropped.png" height="40px">
+            </div>
+            <div class="dots"> 
+                <img id="fourth-dot" src="img/orange-dot.png" alt="orange-dot.png" height="40px;" >
+                <div class="city-name">Singapore</div>
+                <img src="img/sunny.png" alt="sunny.png" height="40px">
+                <div class="temperature">16°</div>
+            </div>
+            <div class="dots"> 
+                <img id="fifth-dot" src="img/orange-dot.png" alt="orange-dot.png" height="40px;" >
+                <div class="city-name">Oakland</div>
+                <img src="img/partly-cloudly.png" alt="partly-cloudy.png" height="40px">
+                <div class="temperature">15°</div>
+            </div>
+            
+            
+           
+           
+        </div>
+        
+        
+        
+    </div>
 </body>
 </html>
