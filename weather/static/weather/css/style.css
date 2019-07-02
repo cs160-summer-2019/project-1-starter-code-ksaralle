@@ -13,11 +13,6 @@ li {
     color: #F5DEB3;
 }
 
-
-#alerted-city {
-    color: crimson;
-}
-
 .city-name {
     font-family: 'East Sea Dokdo';
     font-size: 2.5rem;
@@ -50,8 +45,11 @@ li {
   font-family: 'Amatic SC';
   font-size: 2.0rem;
   margin-bottom: 40px;
-  
-  
+
+}
+
+#alerted-city {
+    color:crimson
 }
 
 
@@ -68,9 +66,8 @@ li {
   background-color:#FFA54F;
   height: 700px;
 }
-
 .alert-small-screen {
-  background-color:#FFA54F;
+  background-color: #FFA54F;
 }
 
 
@@ -114,6 +111,7 @@ li {
 
 .triangle {
     margin-top: 8px;
+    
 }
 
 
@@ -154,3 +152,4 @@ li {
     position: absolute;
     z-index:2;
 }
+
